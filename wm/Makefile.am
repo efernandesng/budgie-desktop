@@ -5,6 +5,8 @@ bin_PROGRAMS = budgie-wm
 budgie_wm_SOURCES = \
 	plugin.h \
 	plugin.c \
+	budgie-background-cache.h \
+	budgie-background-cache.c \
 	budgie-wm.c
 
 budgie_wm_CFLAGS = \
